@@ -57,6 +57,8 @@ local O_Offset      = OBJ.ApplyForceOffset
 local O_Torque      = OBJ.ApplyTorqueCenter
 local O_ObjVel      = OBJ.SetVelocity
 local O_ObjVelInst  = OBJ.SetVelocityInstantaneous
+local O_SetMass     = OBJ.SetMass
+local O_Inertia     = OBJ.SetInertia
 
 ---- Override global functions
 
